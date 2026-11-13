@@ -1,0 +1,20 @@
+# Dataset files (too large for GitHub, everyone downloads them locally)
+data/*
+!data/.gitkeep
+
+# Private Kaggle API key, never upload
+kaggle.json
+
+# PyCharm personal settings
+.idea/
+
+# Python and Jupyter temporary files
+__pycache__/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Mac system files
+.DS_Store
