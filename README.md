@@ -8,10 +8,12 @@ We play data scientists at a large company that currently shows products to cust
 
 | Notebook | Owner |
 |---|---|
-| notebooks/01_data_and_baselines.ipynb | (name) |
-| notebooks/02_collaborative_filtering.ipynb | (name) |
-| notebooks/03_content_based.ipynb | (name) |
-| notebooks/04_hybrid_context_bandits.ipynb | (name) |
+| notebooks/00_build_dataset.ipynb | Estelle |
+| notebooks/01_preprocessing.ipynb | Estelle |
+| notebooks/02_eda.ipynb | Estelle |
+| notebooks/03_collaborative_filtering.ipynb | (name) |
+| notebooks/04_content_based.ipynb | (name) |
+| notebooks/05_hybrid_context_bandits.ipynb | (name) |
 
 ## Folder structure
 
@@ -22,7 +24,7 @@ We play data scientists at a large company that currently shows products to cust
 ## Setup
 
 1. Clone the repository in PyCharm (File > New > Project from Version Control).
-2. The cleaned dataset is already in `data/processed` after you pull. It is built from the raw MyAnimeList files by `notebooks/00_build_dataset.ipynb` and `notebooks/01_eda_and_preprocessing.ipynb`, which only need to be rerun if the cleaning changes.
+2. The cleaned dataset is already in `data/processed` after you pull. It is built from the raw MyAnimeList files by `notebooks/00_build_dataset.ipynb` and `notebooks/01_preprocessing.ipynb`, which only need to be rerun if the cleaning changes.
 3. If you use the Kaggle API, put your own kaggle.json in the project root. It is in .gitignore so it is never uploaded.
 
 ## Rules
