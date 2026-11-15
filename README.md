@@ -11,7 +11,7 @@ We play data scientists at a large company that currently shows products to cust
 | notebooks/00_build_dataset.ipynb | Estelle |
 | notebooks/01_preprocessing.ipynb | Estelle |
 | notebooks/02_eda.ipynb | Estelle |
-| notebooks/03_recommenders.ipynb Part 1 (evaluation setup) and Part 2 (non-personalized) | Estelle |
+| notebooks/03_recommenders.ipynb Part 1 (evaluation setup) and Part 2 (non-personalized) | Aoi, Loraine, Rishi |
 | notebooks/03_recommenders.ipynb Parts 3 to 8 | (to be split at the meeting) |
 
 ## Folder structure
