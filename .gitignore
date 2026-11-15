@@ -1,6 +1,8 @@
 # Dataset files (too large for GitHub, everyone downloads them locally)
 data/*
 !data/.gitkeep
+# The cleaned dataset is small and shared through Git
+!data/processed/
 
 # Private Kaggle API key, never upload
 kaggle.json

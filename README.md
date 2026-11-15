@@ -22,7 +22,7 @@ We play data scientists at a large company that currently shows products to cust
 ## Setup
 
 1. Clone the repository in PyCharm (File > New > Project from Version Control).
-2. Download the dataset and put the files in the data/ folder. (Dataset and download link to be added once the group decides.)
+2. The cleaned dataset is already in `data/processed` after you pull. It is built from the raw MyAnimeList files by `notebooks/00_build_dataset.ipynb` and `notebooks/01_eda_and_preprocessing.ipynb`, which only need to be rerun if the cleaning changes.
 3. If you use the Kaggle API, put your own kaggle.json in the project root. It is in .gitignore so it is never uploaded.
 
 ## Rules
@@ -30,5 +30,5 @@ We play data scientists at a large company that currently shows products to cust
 - Pull before you start working (Git > Pull).
 - Only edit your own notebook. Shared code goes in src/.
 - Clear large outputs before committing (Clear All Outputs).
-- Never commit data files or kaggle.json.
+- Never commit data files or kaggle.json. The only exception is `data/processed`, the cleaned dataset everyone uses.
 - Write short clear commit messages, for example "add TF-IDF content-based model".
