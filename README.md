@@ -26,7 +26,7 @@ We play data scientists at a large company that currently shows products to cust
 1. Clone the repository in PyCharm (File > New > Project from Version Control).
 2. The cleaned dataset is already in `data/processed` after you pull. It is built from the raw MyAnimeList files by `notebooks/00_build_dataset.ipynb` and `notebooks/01_preprocessing.ipynb`, which only need to be rerun if the cleaning changes.
 3. Install the packages (Python 3.12). recmetrics must be installed without its dependencies, because it pins old versions of pandas and seaborn (see Part 1 of notebooks/03_recommenders.ipynb).
-   `pip install pandas pyarrow matplotlib pycountry scikit-surprise rexmex "seaborn>=0.13" "plotly>=5" funcsigs six`
+   `pip install pandas pyarrow matplotlib pycountry scikit-surprise rexmex "seaborn>=0.13" "plotly>=5" funcsigs six sentence-transformers transformers nltk`
    `pip install --no-deps recmetrics`
 4. To work on your part, copy notebooks/03_recommenders.ipynb to drafts/yourname_part.ipynb, run Part 1 and add your part below it. When it is finished, one person pastes it into notebooks/03_recommenders.ipynb. Only that person edits the main notebook, so Git never has to merge two versions of it.
 5. If you use the Kaggle API, put your own kaggle.json in the project root. It is in .gitignore so it is never uploaded.
